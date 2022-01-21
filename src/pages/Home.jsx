@@ -1,8 +1,13 @@
+import UserResults from "../components/users/UserResults";
 function Home() {
     return (
-        <div>
-            home
-        </div>
+        <>
+        
+        {/* { search components} */}
+        <UserResults/>
+        
+        </>
+            
     )
 }
 
